@@ -9,11 +9,3 @@ def driver():
     driver.get(URL)
     yield driver
     driver.quit()
-
-
-@pytest.fixture
-def user_credentials():
-    return {
-        "email": "artembesf8132@practicum.ru",
-        "password": "Practicum!23"
-    }

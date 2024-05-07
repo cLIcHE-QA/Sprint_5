@@ -1,9 +1,4 @@
-import faker
-
-
-def get_signup_data():
-    fake = faker.Faker()
-    name = fake.name()
-    email = fake.email()
-    password = fake.password()
-    return name, email, password
+def user_credentials():
+    email = "artembesf8132@practicum.ru"
+    password = "Practicum!23"
+    return email, password
